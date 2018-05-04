@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: EddiesBlog
+        psr4_prefix: EddiesBlog
+        src_path: app
