@@ -42,7 +42,7 @@ class PagePresenter extends AbstractPresenter
 
 	public function paddedTitle()
 	{
-		return str_repeat('&nbsp;', $this->depth * 4).$this->title;
+		return str_repeat('&nbsp;', $this->depth * 4) . $this->title;
 	}
 
 }
