@@ -140,6 +140,8 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+//         'Khill\Lavacharts\Laravel\LavachartsServiceProvider',
+
 
         /*
          * Application Service Providers...
@@ -148,6 +150,7 @@ return [
         EddiesBlog\Providers\AuthServiceProvider::class,
         EddiesBlog\Providers\EventServiceProvider::class,
         EddiesBlog\Providers\RouteServiceProvider::class,
+        Khill\Lavacharts\Laravel\LavachartsServiceProvider::class,
 
     ],
 
@@ -199,6 +202,7 @@ return [
         'View'      => Illuminate\Support\Facades\View::class,
         
         'Form'      => Illuminate\Html\FormFacade::class,
+        'Lava' 		=> 'Khill\Lavacharts\Laravel\LavachartsFacade',
 
     ],
 

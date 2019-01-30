@@ -8,12 +8,16 @@
 	@foreach($posts as $post)
 		<div class="col-md-4">
 			<h2><a href="{{ route('blog.post', [$post->id, $post->slug]) }}">{{ $post->title }}</a></h2>
-
 			<p>
 				Posted by: {{ $post->author->name }} on {{ $post->published_at }}
 			</p>
 
 			{!! $post->excerpt_html or $post->body_html !!}
+			
+			<br />
+			@if(Auth::user())
+				<a href="{{ route('backend.blog.edit', $post->id) }}">Edit: <span class="glyphicon glyphicon-edit"></span></a>
+			@endif
 		</div>
 	@endforeach
 </div>

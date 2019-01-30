@@ -2,6 +2,8 @@
 
 @section('title', 'Dashboard')
 
+@section('title2', 'Last Users:')
+
 @section('content')
 		<div class="row">
 			<div class="col-md-6">
@@ -25,10 +27,12 @@
 				<ul class="list-group">
 					@foreach($users as $user)
 						<li class="list-group-item">
-							<h4>{{ $user->name }}</h4>
-							
-						Last Login: {!! $user->last_login_difference !!}. Last IP: {!! $user->login_ip !!}
-
+							<h4>{{ $user->name }}</h4>							
+						 <p>
+						   Last Login: {!! $user->last_login_difference !!}. Last IP: {!! $user->login_ip !!}
+				           <br>Location: {!! $city !!} - {!! $country !!}
+				           <br><img border="3" width="40%" height="80%" src="{!! $map !!}" />
+				         </p>
 						</li>
 					@endforeach  
 				</ul>

@@ -1,5 +1,8 @@
 <?php
 
+//RSS Feed display shown before authentication occurs.
+Route::get('/feed','FeedController@start');
+
 Route::controller('auth/password', 'Auth\PasswordController', [
 		'getEmail' => 'auth.password.email',
 		'getReset' => 'auth.password.reset'

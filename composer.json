@@ -11,7 +11,9 @@
         "lewis/presenter": "^1.0",
         "baum/baum": "^1.1",
         "league/commonmark": "^0.12.0",
-        "barryvdh/laravel-ide-helper": "^2.4"
+        "barryvdh/laravel-ide-helper": "^2.4",
+        "khill/lavacharts" : "3.0.*",
+        "willvincent/feeds": "1.1.*"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

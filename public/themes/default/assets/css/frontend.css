@@ -5468,6 +5468,18 @@ tbody.collapse.in {
     border: 0;
     box-shadow: none;
   }
+  
+ .menuIcon 
+ { 
+    background: transparent;
+    display: block !important;
+    position: inherit;
+    float: left;
+    text-align: left;
+    top: inherit;
+    z-index: 1;
+    padding: 2%;
+ }
 
   .navbar-nav .open .dropdown-menu > li > a,
   .navbar-nav .open .dropdown-menu .dropdown-header {
@@ -5576,6 +5588,18 @@ tbody.collapse.in {
   .navbar-form .form-group {
     margin-bottom: 5px;
   }
+  
+   .menuIcon 
+ { 
+    background: transparent;
+    display: block !important;
+    position: inherit;
+    float: left;
+    text-align: left;
+    top: inherit;
+    z-index: 1;
+    padding: 2%;
+ }
 
   .navbar-form .form-group:last-child {
     margin-bottom: 0;
@@ -5726,6 +5750,18 @@ tbody.collapse.in {
     color: #777;
   }
 
+ .menuIcon 
+ { 
+    background: transparent;
+    display: block !important;
+    position: inherit;
+    float: left;
+    text-align: left;
+    top: inherit;
+    z-index: 1;
+    padding: 2%;
+ }
+
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #333;
@@ -5843,6 +5879,18 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
     border-color: #090909;
   }
+  
+   .menuIcon 
+ { 
+    background: transparent;
+    display: block !important;
+    position: inherit;
+    float: left;
+    top: inherit;
+    z-index: 1;
+    text-align: left;
+    padding: 2%;
+ }
 
   .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
     background-color: #090909;
@@ -8336,3 +8384,27 @@ a.navbar-brand img {
   right: 0;
   text-align: center;
 }
+
+.menuIcon 
+{
+    display: none;
+    text-align: left;
+    float: left;
+    padding: 2%;
+    top: inherit;
+    z-index: 1;
+    position: inherit;
+    &:hover 
+    {
+      background: #999;
+    }
+    a 
+    {
+      width: 100%;
+      display: inline-block;
+      color: #fff;
+      img 
+      {
+         vertical-align: middle;
+      }
+    }

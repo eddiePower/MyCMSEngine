@@ -15,3 +15,15 @@
 		@endif
 	</li>
 @endforeach
+@if(Auth::user())
+<li>
+ <a href="{{ route('backend.dashboard') }}">User Dashboard</a>
+</li>
+<li>
+    <a href="{{ route('auth.logout') }}">Logout</a>
+</li>
+@else
+<li>
+    <a href="{{ route('auth.login') }}">Log in</a>
+</li>
+@endif

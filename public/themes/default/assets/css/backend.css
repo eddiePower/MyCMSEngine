@@ -1526,6 +1526,20 @@ h6,
   color: inherit;
 }
 
+#SecondH3
+{
+  display: block !important;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  font-size: 24px;
+  right: 38%;
+  top: -0.1%;
+  position: absolute;
+  float: right;
+}
+
 h1 small,
 h1 .small,
 h2 small,
@@ -2802,6 +2816,20 @@ pre code {
     float: left;
   }
 
+#SecondH3
+  {
+    display: block !important;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    font-size: 24px;
+    right: 38%;
+    top: -0.1%;
+    position: absolute;
+    float: right;
+  }
+
   .col-lg-1 {
     width: 8.3333333333%;
   }
@@ -3237,6 +3265,20 @@ table th[class*="col-"] {
     overflow-y: hidden;
     -ms-overflow-style: -ms-autohiding-scrollbar;
     border: 1px solid #ddd;
+  }
+  
+  #SecondH3
+  {
+    display: none !important;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    font-size: 24px;
+    right: 38%;
+    top: -0.1%;
+    position: absolute;
+    float: right;
   }
 
   .table-responsive > .table {
@@ -5501,6 +5543,20 @@ tbody.collapse.in {
     border: 0;
     box-shadow: none;
   }
+  
+  #SecondH3
+  {
+    display: none !important;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    font-size: 24px;
+    right: 38%;
+    top: -0.1%;
+    position: absolute;
+    float: right;
+  }
 
   .navbar-nav .open .dropdown-menu > li > a,
   .navbar-nav .open .dropdown-menu .dropdown-header {
@@ -5515,6 +5571,15 @@ tbody.collapse.in {
   .navbar-nav .open .dropdown-menu > li > a:focus {
     background-image: none;
   }
+  
+ .menuIcon 
+ {  
+    background: transparent;
+    display: block !important;
+    position: relative;
+    float: left;
+    text-align: left;
+ }
 }
 
 @media (min-width: 768px) {
@@ -5605,9 +5670,25 @@ tbody.collapse.in {
   }
 }
 
-@media (max-width: 767px) {
-  .navbar-form .form-group {
+@media (max-width: 767px) 
+{
+  .navbar-form .form-group 
+  {
     margin-bottom: 5px;
+  }
+  
+  #SecondH3
+  {
+    display: none !important;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    font-size: 24px;
+    right: 38%;
+    top: -0.1%;
+    position: absolute;
+    float: right;
   }
 
   .navbar-form .form-group:last-child {
@@ -5758,6 +5839,29 @@ tbody.collapse.in {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #777;
   }
+  
+  #SecondH3
+  {
+    display: none !important;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    font-size: 24px;
+    right: 38%;
+    top: -0.1%;
+    position: absolute;
+    float: right;
+  }
+  
+ .menuIcon 
+ { 
+    background: transparent;
+    display: block !important;
+    position: relative;
+    float: left;
+    text-align: left;
+ }
 
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -5876,6 +5980,30 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
     border-color: #090909;
   }
+  
+  #SecondH3
+  {
+    display: none !important;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    font-size: 24px;
+    right: 38%;
+    top: -0.1%;
+    position: absolute;
+    float: right;
+  }
+
+ .menuIcon 
+ {   
+    background: transparent;
+    display: block !important;
+    position: absolute;
+    float: left;
+    text-align: left;
+    padding: 2%;
+ }
 
   .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
     background-color: #090909;
@@ -6295,6 +6423,21 @@ a.badge:focus {
     padding-top: 48px;
     padding-bottom: 48px;
   }
+  
+  #SecondH3
+  {
+    display: block !important;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    font-size: 24px;
+    right: 38%;
+    top: -0.1%;
+    position: absolute;
+    float: right;
+  }
+  
 
   .container .jumbotron,
   .container-fluid .jumbotron {
@@ -8115,16 +8258,63 @@ button.close {
     display: table-row !important;
   }
 
+#SecondH3
+  {
+    display: block !important;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    font-size: 24px;
+    right: 38%;
+    top: -0.1%;
+    position: absolute;
+    float: right;
+  }
+
   th.visible-xs,
   td.visible-xs {
     display: table-cell !important;
   }
+  
+ .menuIcon 
+ { 
+    background: transparent;
+    display: block !important;
+    position: absolute;
+    float: left;
+    text-align: left;
+    padding: 2%;
+ }
 }
 
 @media (max-width: 767px) {
   .visible-xs-block {
     display: block !important;
   }
+  
+  #SecondH3
+  {
+    display: none !important;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    font-size: 24px;
+    right: 38%;
+    top: -0.1%;
+    position: absolute;
+    float: right;
+  }
+  
+ .menuIcon 
+ {  
+    background: transparent;
+    display: block !important;
+    position: relative;
+    float: left;
+    text-align: left;
+ }
 }
 
 @media (max-width: 767px) {
@@ -8181,6 +8371,20 @@ button.close {
     display: block !important;
   }
 
+#SecondH3
+  {
+    display: block !important;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    font-size: 24px;
+    right: 38%;
+    top: -0.1%;
+    position: absolute;
+    float: right;
+  }
+
   table.visible-md {
     display: table !important;
   }
@@ -8217,6 +8421,20 @@ button.close {
   .visible-lg {
     display: block !important;
   }
+  
+  #SecondH3
+  {
+    display: block !important;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    font-size: 24px;
+    right: 38%;
+    top: -0.1%;
+    position: absolute;
+    float: right;
+  }
 
   table.visible-lg {
     display: table !important;
@@ -8236,11 +8454,38 @@ button.close {
   .visible-lg-block {
     display: block !important;
   }
+  #SecondH3
+  {
+    display: block !important;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    font-size: 24px;
+    right: 38%;
+    top: -0.1%;
+    position: absolute;
+    float: right;
+  }
 }
 
 @media (min-width: 1200px) {
   .visible-lg-inline {
     display: inline !important;
+  }
+  
+  #SecondH3
+  {
+    display: block !important;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    font-size: 24px;
+    right: 38%;
+    top: -0.1%;
+    position: absolute;
+    float: right;
   }
 }
 
@@ -8248,11 +8493,38 @@ button.close {
   .visible-lg-inline-block {
     display: inline-block !important;
   }
+  #SecondH3
+  {
+    display: block !important;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    font-size: 24px;
+    right: 38%;
+    top: -0.1%;
+    position: absolute;
+    float: right;
+  }
 }
 
 @media (max-width: 767px) {
   .hidden-xs {
     display: none !important;
+  }
+  
+  #SecondH3
+  {
+    display: none !important;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    font-size: 24px;
+    right: 38%;
+    top: -0.1%;
+    position: absolute;
+    float: right;
   }
 }
 
@@ -8260,17 +8532,59 @@ button.close {
   .hidden-sm {
     display: none !important;
   }
+  
+  #SecondH3
+  {
+    display: none !important;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    font-size: 24px;
+    right: 38%;
+    top: -0.1%;
+    position: absolute;
+    float: right;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .hidden-md {
     display: none !important;
   }
+  
+  #SecondH3
+  {
+    display: block !important;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    font-size: 24px;
+    right: 38%;
+    top: -0.1%;
+    position: absolute;
+    float: right;
+  }
 }
 
 @media (min-width: 1200px) {
   .hidden-lg {
     display: none !important;
+  }
+  
+  #SecondH3
+  {
+    display: block !important;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    font-size: 24px;
+    right: 38%;
+    top: -0.1%;
+    position: absolute;
+    float: right;
   }
 }
 
@@ -11401,3 +11715,25 @@ body {
   height: 150px;
   min-height: 150px;
 }
+
+.menuIcon 
+{
+    display: none;
+    text-align: left;
+    float: left;
+    padding: 2%;
+    position: relative;
+    &:hover 
+    {
+      background: #999;
+    }
+    a 
+    {
+      width: 100%;
+      display: inline-block;
+      color: #fff;
+      img 
+      {
+         vertical-align: middle;
+      }
+    }

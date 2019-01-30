@@ -22,8 +22,12 @@
 	<!-- form submit laravel 5 blade call  -->
 	{!! Form::submit('Login', ['class' => 'btn btn-primary']) !!}
 
-	<a href="{{ route('auth.password.email') }}" class="small">Forgot Password</a>
+	<a href="{{ route('auth.password.email') }}" class="btn btn-danger small">Forgot Password</a>
 
-	<!-- Close Form Laravel 5 blade tag -->
+	<a href="/" class="btn btn-info">Go Home</a>
+    
+    <!-- Close Form Laravel 5 blade tag -->
 	{!! Form::close() !!}
+
+	
 @endsection
